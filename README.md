@@ -1,4 +1,11 @@
-Examples:
+### Examples:
+
+```python
+def function(point):
+    x1, x2, x3, x4 = point
+    return np.exp(-(x1 ** 2 + x2 ** 2 + x3 ** 2 + x4 ** 2))
+
+limits = [[-5, 5], [-5, 5], [-5, 5], [-5, 5]]
 _________________________
 def function(point):
     x1, x2, x3, x4 = point
